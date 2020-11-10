@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "648694855216",
+    "firebase_url": "https://keepfit-application.firebaseio.com",
+    "project_id": "keepfit-application",
+    "storage_bucket": "keepfit-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648694855216:android:fcc25c1233ceca23999ff5",
+        "android_client_info": {
+          "package_name": "com.example.keepfitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648694855216-ev916mqb3u0ta5jptr7ai05v73al36o3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKsWlcXtTmaVGLoLG1_CLgvTyL_feKqfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648694855216-ev916mqb3u0ta5jptr7ai05v73al36o3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
