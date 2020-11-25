@@ -40,13 +40,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String email = emailID.getText().toString();
                 String pass = password.getText().toString();
-                if (pass.isEmpty()) {
-                    password.setError("Please enter your password");
-                    password.requestFocus();
-                }
-                else if(email.isEmpty()){
+                if (email.isEmpty()){
                     emailID.setError("Please enter an email address");
                     emailID.requestFocus();
+                }
+                else if (pass.isEmpty()) {
+                    password.setError("Please enter your password");
+                    password.requestFocus();
                 }
                 else if (email.isEmpty() && (pass.isEmpty())){
                     Toast.makeText(MainActivity.this, "Both fields are empty", Toast.LENGTH_SHORT).show();

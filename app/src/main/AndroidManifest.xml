@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KeepFitApp">
-        <activity android:name=".BodyDetails"></activity>
+        <activity android:name=".Progress"></activity>
+        <activity android:name=".CompletedGoals" />
+        <activity android:name=".FitnessGoals" />
+        <activity android:name=".BodyDetails" />
         <activity android:name=".HomeScreen" />
         <activity android:name=".SignUp" />
         <activity android:name=".MainActivity">

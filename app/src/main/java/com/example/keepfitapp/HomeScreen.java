@@ -13,6 +13,10 @@ import com.google.firebase.auth.FirebaseUser;
 public class HomeScreen extends AppCompatActivity {
 
     Button btnLogout;
+    Button btnBodyDetails;
+    Button btnFitnessGoal;
+    Button btnViewGoal;
+    Button btnProgress;
     FirebaseAuth aFirebaseAuth;
     private FirebaseAuth.AuthStateListener aAuthStateListener;
 
@@ -30,6 +34,43 @@ public class HomeScreen extends AppCompatActivity {
                 startActivity(ToMainPage);
             }
         });
+
+        btnBodyDetails = findViewById(R.id.bodydetails);
+        btnBodyDetails.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ToBodyPage = new Intent(HomeScreen.this, BodyDetails.class);
+                startActivity(ToBodyPage);
+            }
+        });
+
+        btnFitnessGoal = findViewById(R.id.fitnessgoals);
+        btnFitnessGoal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ToGoalPage = new Intent(HomeScreen.this, FitnessGoals.class);
+                startActivity(ToGoalPage);
+            }
+        });
+
+        btnViewGoal = findViewById(R.id.viewgoals);
+        btnViewGoal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ToVGoalsPage = new Intent(HomeScreen.this, CompletedGoals.class);
+                startActivity(ToVGoalsPage);
+            }
+        });
+
+        btnProgress = findViewById(R.id.viewprogress);
+        btnProgress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ToProgressPage = new Intent(HomeScreen.this, Progress.class);
+                startActivity(ToProgressPage);
+            }
+        });
+
 
     }
 }

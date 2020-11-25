@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.954" />
 
     <Button
-        android:id="@+id/logout"
+        android:id="@+id/fitnessgoals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fitness Goals "
@@ -31,7 +31,7 @@
         app:layout_constraintVertical_bias="0.413" />
 
     <Button
-        android:id="@+id/logout"
+        android:id="@+id/bodydetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Body Details "
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.253" />
 
     <Button
-        android:id="@+id/logout"
+        android:id="@+id/viewprogress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="View Progress "
@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.738" />
 
     <Button
-        android:id="@+id/logout"
+        android:id="@+id/viewgoals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="view completed goals "
